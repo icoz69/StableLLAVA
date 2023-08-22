@@ -3,7 +3,7 @@
 
 Yanda Li, [Chi Zhang](https://icoz69.github.io/), Gang Yu, Zhibin Wang, Bin Fu, Guosheng Lin, Chunhua Shen, Ling Chen, Yunchao Wei
 
-[[Arxiv]](https://arxiv.org/abs/2305.19012)
+[[Arxiv]](https://arxiv.org/abs/2308.10253v1)
 
 **This repository offers a collection of AI-generated datasets specifically tailored for visual instruction tuning.**
 
