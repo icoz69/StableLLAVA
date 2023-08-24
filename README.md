@@ -14,6 +14,16 @@ Yanda Li, [Chi Zhang](https://icoz69.github.io/), Gang Yu, Zhibin Wang, Bin Fu, 
 
 <img src='teaser.png'>
 
+## Pipeline 
+The templates of varies datasets prompt-dialogue are saved in dataset file.
+
+Firstly, use stable-diffusion.py to generate images as training images. It will take ~13s for generating one image on V100.
+
+Second, use data_to_llava.py to convert dataset format to llava format for model training.
+
+For training model, you can use LLaVA official code [[LLaVA]](https://github.com/haotian-liu/LLaVA)
+
+
  ## TO DO LIST
 - [ ] Update datasets and instruction templates
 - [ ] Keep incorporating more capabilities
