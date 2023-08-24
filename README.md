@@ -15,11 +15,11 @@ Yanda Li, [Chi Zhang](https://icoz69.github.io/), Gang Yu, Zhibin Wang, Bin Fu, 
 <img src='teaser.png'>
 
 ## Pipeline 
-The templates of varies datasets prompt-dialogue are saved in dataset file.
+The prompt-dialogue of varies abilities are saved in [[dataset]](https://github.com/crystraldo/StableLLAVA/tree/main/dataset).
 
-Firstly, use stable-diffusion.py to generate images as training images. It will take ~13s for generating one image on V100.
+Firstly, use [[stable diffusion-XL]](https://github.com/crystraldo/StableLLAVA/blob/main/stable_diffusion.py) to generate images as training images. It will take ~13s for generating one image on V100.
 
-Second, use data_to_llava.py to convert dataset format to llava format for model training.
+Second, use [[data_to_llava]](https://github.com/crystraldo/StableLLAVA/blob/main/data_to_llava.py) to convert dataset format to llava format for model training.
 
 For training model, you can use LLaVA official code [[LLaVA]](https://github.com/haotian-liu/LLaVA)
 
