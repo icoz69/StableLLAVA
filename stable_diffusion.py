@@ -1,3 +1,5 @@
+#pip install diffusers
+
 from diffusers import DiffusionPipeline
 import torch
 
