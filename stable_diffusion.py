@@ -1,3 +1,4 @@
+#pip install diffusers
 import argparse
 import json
 from diffusers import DiffusionPipeline
