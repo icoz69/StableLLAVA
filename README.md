@@ -24,6 +24,9 @@ python stable_diffusion.py --prompt_path dataset/animal.json --save_path train_s
 ```
 
 Second, use [data_to_llava](https://github.com/crystraldo/StableLLAVA/blob/main/data_to_llava.py) to convert dataset format for LLaVA model training.
+```
+python data_to_llava.py --image_path train_set/animal/ --prompt_path dataset/animal.json --save_path train_ano/animal.json
+```
 
 For training model, you can use LLaVA official code [LLaVA](https://github.com/haotian-liu/LLaVA)
 
