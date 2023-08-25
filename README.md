@@ -19,7 +19,8 @@ The prompt-dialogue of varies abilities are saved in [dataset](https://github.co
 
 Firstly, use [SD-XL](https://github.com/crystraldo/StableLLAVA/blob/main/stable_diffusion.py) to generate images as training images. It will take ~13s for generating one image on V100.
 ```
-python stable_diffusion.py
+pip install diffusers
+python stable_diffusion.py --prompt_path dataset/animal.json --save_path train_set/animal/
 ```
 
 Second, use [data_to_llava](https://github.com/crystraldo/StableLLAVA/blob/main/data_to_llava.py) to convert dataset format for LLaVA model training.
