@@ -3,7 +3,9 @@
 
 Yanda Li, [Chi Zhang](https://icoz69.github.io/), Gang Yu, Zhibin Wang, Bin Fu, Guosheng Lin, Chunhua Shen, Ling Chen, Yunchao Wei
 
-[[Arxiv]](https://arxiv.org/abs/2308.10253v1)
+[[Arxiv]](https://arxiv.org/abs/2308.10253v1) 
+[[Project Page]](https://icoz69.github.io/stablellava-official/)
+
 
 **This repository offers a collection of AI-generated datasets specifically tailored for visual instruction tuning.**
 
