@@ -44,5 +44,6 @@ def main():
         with open(output_file_path, 'w') as file:
             json.dump(out_list, file)
 
+
 if __name__ == "__main__":
     main()
