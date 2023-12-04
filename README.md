@@ -39,8 +39,7 @@ python data_to_llava.py --image_path train_set/ --prompt_path dataset/ --save_pa
 
 # Quantitative Results
 <img src='quan.png'>
- ## TO DO LIST
-=======
+
 3. For training with the generated datasets, you can use LLaVA official code [LLaVA](https://github.com/haotian-liu/LLaVA)
 
 
