@@ -21,10 +21,14 @@ pip install -e .
 ## Evaluation
 ### MMBench
 1. Download mmbench [dev/test set](https://github.com/open-compass/MMBench), then put it under ```./playground/data/eval/mmbench ```
+
 2. Set model_path and model_base in ``` scripts/v1_5/eval/mmbench.sh ```
+   
    For model_path, you can download from [google drive](https://drive.google.com/file/d/1GgI4SDzWLj_16baKHzYyoDa-9zBdVrsk/view?usp=drive_link)
+   
    For model_base, we adopt vicuna-13b-v1.5, and you can download from [huggingface](https://huggingface.co/lmsys/vicuna-13b-v1.5)
-3. Submit the results under ./playground/data/eval/mmbench/answers_upload/ to [MMBench](https://mmbench.opencompass.org.cn/home)
+   
+3. Submit the results under ```./playground/data/eval/mmbench/answers_upload/ ``` to [MMBench](https://mmbench.opencompass.org.cn/home)
    
 
 ## Abstract
