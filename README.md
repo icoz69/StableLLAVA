@@ -9,6 +9,24 @@ Yanda Li, [Chi Zhang](https://icoz69.github.io/), Gang Yu, Zhibin Wang, Bin Fu, 
 
 **This repository offers a collection of AI-generated datasets specifically tailored for visual instruction tuning.**
 
+## Install
+
+```
+conda create -n stablellava python=3.10 -y
+conda activate stablellava
+pip install --upgrade pip 
+pip install -e .
+```
+
+## Evaluation
+# MMBench
+1. Download mmbench [dev/test set](https://github.com/open-compass/MMBench), then put it under ```./playground/data/eval/mmbench ```
+2. Set model_path and model_base in ``` scripts/v1_5/eval/mmbench.sh ```
+   For model_path, you can download from [google drive](https://drive.google.com/file/d/1GgI4SDzWLj_16baKHzYyoDa-9zBdVrsk/view?usp=drive_link)
+   For model_base, we adopt vicuna-13b-v1.5, and you can download from [huggingface](https://huggingface.co/lmsys/vicuna-13b-v1.5)
+3. Submit the results under ./playground/data/eval/mmbench/answers_upload/ to [MMBench](https://mmbench.opencompass.org.cn/home)
+   
+
 ## Abstract
 
  The remarkable multimodal capabilities demonstrated by OpenAI's GPT-4 have sparked significant interest in the development of multimodal Large Language Models (LLMs). A primary research objective of such models is to  align visual and textual modalities effectively while comprehending human instructions.
@@ -44,6 +62,7 @@ python data_to_llava.py --image_path train_set/ --prompt_path dataset/ --save_pa
 
 
  ## TO-DO LIST
-- [ ] Update datasets and instruction templates
+- [ ] Update more benchmark evaluation
+- [ ] Update multi-image evaluation
 - [ ] Keep incorporating more capabilities
-- [ ] Demo and Codes
+
