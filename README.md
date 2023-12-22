@@ -27,8 +27,12 @@ pip install -e .
    For model_path, you can download from [google drive](https://drive.google.com/file/d/1GgI4SDzWLj_16baKHzYyoDa-9zBdVrsk/view?usp=drive_link)
    
    For model_base, we adopt vicuna-13b-v1.5, and you can download from [huggingface](https://huggingface.co/lmsys/vicuna-13b-v1.5)
+
+   Test with single-gpu
+
+   ``` CUDA_VISIBLE_DEVICES=0 bash scripts/v1.5/eval/mmbench.sh ```
    
-3. Submit the results under ```./playground/data/eval/mmbench/answers_upload/ ``` to [MMBench](https://mmbench.opencompass.org.cn/home)
+4. Submit the results under ```./playground/data/eval/mmbench/answers_upload/ ``` to [MMBench](https://mmbench.opencompass.org.cn/home)
    
 
 ## Abstract
